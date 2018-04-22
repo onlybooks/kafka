@@ -1,0 +1,8 @@
+{"version":1,
+"partitions":[
+  {"topic":"peter5","partition":0,"replicas":[2,1]},
+	{"topic":"peter5","partition":1,"replicas":[3,2]},
+	{"topic":"peter5","partition":2,"replicas":[4,3]},
+	{"topic":"peter5","partition":3,"replicas":[5,4]},
+  {"topic":"peter5","partition":4,"replicas":[1,5]}
+]}

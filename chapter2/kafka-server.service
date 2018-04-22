@@ -1,0 +1,14 @@
+[Unit]
+Description=kafka-server
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+SyslogIdentifier=kafka-server
+WorkingDirectory=/usr/local/kafka
+Restart=no
+RestartSec=0s
+ExecStart=/usr/local/kafka/bin/kafka-server-start.sh /usr/local/kafka/config/server.properties
+ExecStop=/usr/local/kafka/bin/kafka-server-stop.sh

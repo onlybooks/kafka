@@ -1,0 +1,31 @@
+#======= Filebeat prospectors
+kafka.home: /usr/local/kafka
+filebeat.prospectors:
+- input_type: log
+  paths:
+    - ${kafka.home}/logs/server.log*
+  multiline.pattern: '^\['
+  multiline.negate: true
+  multiline.match: after
+  fields.pipeline: kafka-logs
+#======= Filebeat modules
+filebeat.config.modules:
+  path: ${path.config}/modules.d/*.yml
+  reload.enabled: false
+
+#====== Elasticsearch template setting
+
+setup.template.settings:
+  index.number_of_shards: 3
+
+#========== KAFKA output
+output.kafka:
+  hosts: ["peter-kafka001:9092", "peter-kafka002:9092", "peter-kafka003:9092"]
+
+  topic: 'peter-log'
+  partition.round_robin:
+    reachable_only: false
+
+  required_acks: 1
+  compression: gzip
+  max_message_bytes: 1000000

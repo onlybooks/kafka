@@ -1,0 +1,7 @@
+path.data: /var/lib/elasticsearch
+path.logs: /var/log/elasticsearch
+cluster.name: peter-es
+node.name: peter-kafka001
+network.bind_host: 0.0.0.0
+http.port: 9200
+transport.tcp.port: 9300
