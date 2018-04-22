@@ -4,6 +4,8 @@
 
 432쪽 | 30,000원 | 2018년 4월 26일 출간 | 180*235*21 | ISBN 9791196203726
 
+![카프카, 데이터 플랫폼의 최강자](./kafka_cover_3d.jpg)
+
 판매처: [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791196203726), [YES24](http://www.yes24.com/24/goods/59789254), [인터파크](http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.shopNo=0000400000&sc.prdNo=282814470), [알라딘](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=142100738), [강컴](http://www.kangcom.com/sub/view.asp?sku=201804170005), [반디앤루니스](http://www.bandinlunis.com/front/product/detailProduct.do?prodId=4168488)
 
 >데이터 플랫폼의 핵심 컴포넌트로 각광받고 있는, 이벤트 기반 비동기 아키텍처를 위한 고가용성 실시간 분산 스트리밍 솔루션 카프카(Kafka)의 모든 것!
