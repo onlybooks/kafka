@@ -4,7 +4,7 @@
 
 432쪽 | 30,000원 | 2018년 4월 26일 출간 | ISBN 9791196203726
 
-![카프카, 데이터 플랫폼의 최강자](./kafka_cover_3d.jpg)<img width="800"></img>
+![카프카, 데이터 플랫폼의 최강자](./kafka_cover_3d.jpg)<img width="600"></img>
 
 판매처: [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791196203726), [YES24](http://www.yes24.com/24/goods/59789254), [인터파크](http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.shopNo=0000400000&sc.prdNo=282814470), [알라딘](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=142100738), [강컴](http://www.kangcom.com/sub/view.asp?sku=201804170005), [반디앤루니스](http://www.bandinlunis.com/front/product/detailProduct.do?prodId=4168488)
 
@@ -41,13 +41,13 @@
 국내 최대 메신저 회사에서 클라우드 서비스 개발 리딩을 맡고 있으며, 데이터 센터 자동화, 프라이빗/퍼블릭 클라우드 서비스와 그에 필요한 기술을 연구, 개발해서 실제 서비스에 적용하고 있다. 2015년에는 캐나다 밴쿠버에서 열린 오픈스택 서밋에서 국내 개발자 중 최초로 ‘SDN without SDN’이라는 제목으로 발표했고, 2016년(도쿄)과 2017년(몬트리얼) Netdev 컨퍼런스에서 역시 국내 최초로 확장가능한 컨테이너 네트워크에 대해 발표했다. 한국 데이터베이스 진흥원 자문위원, 클라우드컴퓨팅조합에서 멘토로도 활동 중이다. 
 
 ## 차례
-1부 카프카를 시작하며
-1장  카프카란 무엇인가
-1.1  카프카의 탄생 배경
-1.2  카프카의 동작 방식과 원리
-1.3  카프카의 특징
-1.4  카프카의 확장과 발전
-1.5  정리
+* 1부 카프카를 시작하며
+ * 1장  카프카란 무엇인가
+  * 1.1  카프카의 탄생 배경
+  * 1.2  카프카의 동작 방식과 원리
+  * 1.3  카프카의 특징
+  * 1.4  카프카의 확장과 발전
+  * 1.5  정리
 
 2장  카프카와 주키퍼 설치
 2.1  카프카 관리를 위한 주키퍼
