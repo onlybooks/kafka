@@ -2,9 +2,9 @@
 ## 실시간 비동기 스트리밍 솔루션 Kafka의 기본부터 확장 응용까지
 ### 고승범, 공용준 지음 
 
-432쪽 | 30,000원 | 2018년 4월 26일 출간 | 180*235*21 | ISBN 9791196203726
+432쪽 | 30,000원 | 2018년 4월 26일 출간 | ISBN 9791196203726
 
-![카프카, 데이터 플랫폼의 최강자](./kafka_cover_3d.jpg)
+![카프카, 데이터 플랫폼의 최강자](./kafka_cover_3d.jpg)<img width="800"></img>
 
 판매처: [교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791196203726), [YES24](http://www.yes24.com/24/goods/59789254), [인터파크](http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.shopNo=0000400000&sc.prdNo=282814470), [알라딘](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=142100738), [강컴](http://www.kangcom.com/sub/view.asp?sku=201804170005), [반디앤루니스](http://www.bandinlunis.com/front/product/detailProduct.do?prodId=4168488)
 
