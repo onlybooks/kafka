@@ -1,6 +1,6 @@
 # 카프카, 데이터 플랫폼의 최강자
 ### 부제: 실시간 비동기 스트리밍 솔루션 Kafka의 기본부터 확장 응용까지
-#### | [고승범](https://facebook.com/peter5236), [공용준](https://www.facebook.com/sstrato.kong) 지음 | [책만](www.onlybook.co.kr) |
+#### | [고승범](https://facebook.com/peter5236), [공용준](https://www.facebook.com/sstrato.kong) 지음 | [책만](http://www.onlybook.co.kr) |
 
 | 432쪽 | 30,000원 | 2018년 4월 26일 출간 | ISBN 9791196203726 |
 <br>
