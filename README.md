@@ -92,6 +92,10 @@ __p113. 9째 줄__ (편집 오류)<br>
 __p114. 표 3-2 두 번째 열 제목__<br>
 프로듀서 수 -> __서버 수__<br>
 
+__p131. 본문 2째줄과 3째줄__<br>
+마지막 리더를 기다리는 방법(2번 방안) -> __(1번 방안)__<br>
+빠른 서비스를 제공하기 위한 방법(1번 방안) -> __(2번 방안)__<br>
+
 __p157. 마지막 항목__<br>
 * &gt; acks=0 -> __acks=0__ (> 빠져야 함)<br>
 
@@ -104,6 +108,47 @@ __p195. 1째~2째 줄__<br>
 
 __p244. 2째 줄__<br>
 추이를 모니터링 화면을 -> 추이를 __보여주는__ 모니터링 화면을<br>
+
+__p295. 4째 줄__<br>
+내장 함수'화' 논리 표현식을 -> 내장 함수"와" 논리 표현식을 <br>
+
+__p318. 예제 8-3 마지막줄 코드부 끝에 있는 1 삭제__<br> 
+final CountDownLatch latch = new CountDownLatch(1);   ~~1~~ <br>
+
+__p321. 그림 8-8 아래쪽 코드부 첫 줄__<br>
+$ src/main/java/myapps/Pipe-complete.java <br>
+-> $ __cp__ src/main/java/myapps/Pipe-complete.java <br>
+
+__p322. 본문 6째 줄__<br>
+# flatMapValue -> flatMapValue__s__ <br>
+
+__p322. 본문 10째 줄__<br>
+flatMapValue를 사용합니다. -> flatMapValue__s__를 사용합니다. <br>
+
+__p322. 예제 8-4 마지막 줄 다음에 다음 코드행 추가__<br>
+words.to(“streams-linesplit-output”);<br>
+
+__p323. 8째 줄 코드행 끝에 ; 추가__<br>
+words.to(“streams-linesplit-output”)__;__ <br>
+
+__p348. 밑에서 6째 줄 코드행__<br>
+CREATE STREAM __테이블_name__ —> CREATE TABLE __table_name__ <br>
+
+__p350. 2번 항목 2째 줄__<br>
+images, ports, volume 항목 -> __image__, ports, __volumes__ 항목<br>
+
+__p355. 4째 줄__<br>
+--bootstrap 옵션 -> --bootstrap __-server__ 옵션
+
+__p356. 4째 줄__<br>
+Page_view 토픽 -> __Pageviews__토픽 <br>
+
+__p356. 5~6째 줄__<br>
+pages_region 스트림 -> __pageviews_regions__ 스트림<br>
+pages_enriched_r8_r9, pageview_region -> __pageviews_enriched_r8_r9__, __pageviews_regions
+
+__p359. 6번 항목__<br>
+quickstart=user 옵션 -> quickstart=user__s__ 옵션
 
 <hr>
 
