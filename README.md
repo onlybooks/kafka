@@ -113,17 +113,17 @@ __p295. 4째 줄__<br>
 내장 함수'화' 논리 표현식을 -> 내장 함수"와" 논리 표현식을 <br>
 
 __p318. 예제 8-3 마지막줄 코드부 끝에 있는 1 삭제__<br> 
-final CountDownLatch latch = new CountDownLatch(1);   ~~1~~ <br>
+final CountDownLatch latch = new CountDownLatch(1);     ~~1~~ <br>
 
 __p321. 그림 8-8 아래쪽 코드부 첫 줄__<br>
 $ src/main/java/myapps/Pipe-complete.java <br>
 -> $ __cp__ src/main/java/myapps/Pipe-complete.java <br>
 
 __p322. 본문 6째 줄__<br>
-# flatMapValue -> flatMapValue__s__ <br>
+flatMapValue -> __flatMapValues__ <br>
 
 __p322. 본문 10째 줄__<br>
-flatMapValue를 사용합니다. -> flatMapValue__s__를 사용합니다. <br>
+flatMapValue를 사용합니다. -> __flatMapValues__를 사용합니다. <br>
 
 __p322. 예제 8-4 마지막 줄 다음에 다음 코드행 추가__<br>
 words.to(“streams-linesplit-output”);<br>
