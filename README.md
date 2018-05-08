@@ -123,7 +123,7 @@ __p322. 본문 6째 줄__<br>
 flatMapValue -> __flatMapValues__ <br>
 
 __p322. 본문 10째 줄__<br>
-flatMapValue를 사용합니다. -> __flatMapValues__를 사용합니다. <br>
+flatMapValue를 사용합니다. -> __flatMapValues__ 를 사용합니다. <br>
 
 __p322. 예제 8-4 마지막 줄 다음에 다음 코드행 추가__<br>
 words.to(“streams-linesplit-output”);<br>
@@ -141,14 +141,14 @@ __p355. 4째 줄__<br>
 --bootstrap 옵션 -> --bootstrap __-server__ 옵션
 
 __p356. 4째 줄__<br>
-Page_view 토픽 -> __Pageviews__토픽 <br>
+Page_view 토픽 -> __Pageviews__ 토픽 <br>
 
 __p356. 5~6째 줄__<br>
 pages_region 스트림 -> __pageviews_regions__ 스트림<br>
 pages_enriched_r8_r9, pageview_region -> __pageviews_enriched_r8_r9__, __pageviews_regions
 
 __p359. 6번 항목__<br>
-quickstart=user 옵션 -> quickstart=user__s__ 옵션
+quickstart=user 옵션 -> quickstart=__users__ 옵션
 
 <hr>
 
