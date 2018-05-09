@@ -132,7 +132,8 @@ __p323. 8째 줄 코드행 끝에 ; 추가__<br>
 words.to(“streams-linesplit-output”)__;__ <br>
 
 __p338. 그림 9-1 점선 박스 누락 -> samza 주변에 점선 박스 들어가야 함__<br>
-![그림9-1](http://img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile2.uf.tistory.com%2Fimage%2F999D714D5AF2401122ECC5)
+![그림9-1](http://img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile2.uf.tistory.com%2Fimage%2F999D714D5AF2401122ECC5)<br>
+
 __p348. 밑에서 6째 줄 코드행__<br>
 CREATE STREAM __테이블_name__ —> CREATE TABLE __table_name__ <br>
 
