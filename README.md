@@ -112,6 +112,9 @@ __p158. 첫째, 둘째 항목__<br>
 * &gt; acks=1 -> __acks=1__ (> 빠져야 함)<br>
 * &gt; acks=all -> __acks=all__ (> 빠져야 함)<br>
 
+__p183. 밑에서 10째 줄__ (편집 오류) <br>
+하고 나면 ~~계~~실행된 상태를 -> 하고 나면 실행된 상태를 <br>
+
 __p195. 1째~2째 줄__<br>
 컨슈머 명령어 -> __프로듀서__ 명령어<br>
 
@@ -143,8 +146,11 @@ words.to(“streams-linesplit-output”)__;__ <br>
 __p338. 그림 9-1 점선 박스 누락 -> samza 주변에 점선 박스 들어가야 함__<br>
 ![그림9-1](http://img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile2.uf.tistory.com%2Fimage%2F999D714D5AF2401122ECC5)<br>
 
+__p345. '스트림 생성' 절 3째 줄__<br>
+CREATE ~~TABLE~~ 스트림이름 ... —> CREATE __STREAM__ 스트림이름 ...<br> 
+
 __p348. 밑에서 6째 줄 코드행__<br>
-CREATE STREAM __테이블_name__ —> CREATE TABLE __table_name__ <br>
+CREATE STREAM __테이블_name__ —> CREATE STREAM __table_name__ <br>
 
 __p350. 2번 항목 2째 줄__<br>
 images, ports, volume 항목 -> __image__, ports, __volumes__ 항목<br>
