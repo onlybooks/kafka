@@ -7,7 +7,11 @@ Type=forking
 User=root
 Group=root
 SyslogIdentifier=zookeeper-server
-WorkingDirectory=/usr/local/zookeeper Restart=always
+WorkingDirectory=/usr/local/zookeeper
+Restart=always
 RestartSec=0s
 ExecStart=/usr/local/zookeeper/bin/zkServer.sh start
 ExecStop=/usr/local/zookeeper/bin/zkServer.sh stop
+
+[Install]
+WantedBy=multi-user.target
