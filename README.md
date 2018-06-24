@@ -161,10 +161,12 @@ __6째줄 닫는 괄호 추가__:  Long)); ❹ -> Long))); ❹ <br>
 __본문 마지막줄__:  주요 코드부는 예제 8-7과 같습니다(완전한 코드는 깃허브 페이지 https://github.com/onlybooks/kafka/에서 다운로드할 수 있습니다). <br>
 
 __p329. 예제 8-7 다음 마지막 코드부 4줄 모두 삭제__<br>
-KTable<String, Long> counts =<br>
-source.flatMapValues(new ValueMapper<String, Iterable<String>>(){<br>
-    @Override~~<br>
-    public Iterable<String> apply(String value) {<br>
+```
+KTable<String, Long> counts =
+source.flatMapValues(new ValueMapper<String, Iterable<String>>(){
+    @Override
+    public Iterable<String> apply(String value) {
+```
 
 __p338. 그림 9-1 점선 박스 누락 -> samza 주변에 점선 박스 들어가야 함__<br>
 ![그림9-1](http://img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile2.uf.tistory.com%2Fimage%2F999D714D5AF2401122ECC5)<br>
