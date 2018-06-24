@@ -49,4 +49,3 @@ public class Pipe {
   }
 }
 
-final CountDownLatch latch = new CountDownLatch(1);
