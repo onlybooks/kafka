@@ -136,8 +136,8 @@ __p295. 3째 줄__ 영문 o 빠짐 <br>
 __p295. 4째 줄__<br>
 내장 함수'화' 논리 표현식을 -> 내장 함수"와" 논리 표현식을 <br>
 
-__p318. 예제 8-3 마지막줄 코드부 끝에 있는 1 삭제__<br> 
-final CountDownLatch latch = new CountDownLatch(1);     ~~1~~ <br>
+__p318. 예제 8-3 마지막줄 코드부 전체 삭제__<br> 
+~~final CountDownLatch latch = new CountDownLatch(1);     1~~ <br>
 
 __p321. 그림 8-8 아래쪽 코드부 첫 줄__<br>
 $ src/main/java/myapps/Pipe-complete.java <br>
@@ -155,8 +155,23 @@ words.to(“streams-linesplit-output”);<br>
 __p323. 8째 줄 코드행 끝에 ; 추가__<br>
 words.to(“streams-linesplit-output”)__;__ <br>
 
+__p328. 예제 8-6__<br>
+_3째줄_ 세미콜론(;) 삭제: store")); ❷ -> store")) ❷ <br>
+_6째줄_ 닫는 괄호 추가: Long)); ❹ -> Long))); ❹ <br>
+_본문 마지막줄_ 주요 코드부는 예제 8-7과 같습니다(완전한 코드는 깃허브 페이지 https://github.com/onlybooks/kafka/에서 다운로드할 수 있습니다). <br>
+
+__p329. 예제 8-7 다음 마지막 코드부 4줄 모두 삭제__<br>
+KTable<String, Long> counts =
+source.flatMapValues(new ValueMapper<String, Iterable<String>>(){
+  @Override
+  public Iterable<String> apply(String value) {
+
 __p338. 그림 9-1 점선 박스 누락 -> samza 주변에 점선 박스 들어가야 함__<br>
 ![그림9-1](http://img1.daumcdn.net/thumb/R1920x0/?fname=http%3A%2F%2Fcfile2.uf.tistory.com%2Fimage%2F999D714D5AF2401122ECC5)<br>
+
+__p343. 본문 6, 7째줄__<br>
+필요한 경우 command -> 필요한 경우 __ksql__commands__ <br>
+command 토픽에는 -> __ksql_commands__ 토픽에는 <br>
 
 __p345. '스트림 생성' 절 3째 줄__<br>
 CREATE ~~TABLE~~ 스트림이름 ... —> CREATE __STREAM__ 스트림이름 ...<br> 
@@ -166,6 +181,10 @@ CREATE STREAM __테이블_name__ —> CREATE STREAM __table_name__ <br>
 
 __p350. 2번 항목 2째 줄__<br>
 images, ports, volume 항목 -> __image__, ports, __volumes__ 항목<br>
+
+__p353. 본문 8째줄, 밑에서 4째줄__<br>
+$docker-compose up d -> $docker-compose up -d 
+docker-compose up d 명령어를 실행하면 -> docker-compose up -d 명령어를 실행하면 
 
 __p355. 4째 줄__<br>
 --bootstrap 옵션 -> --bootstrap __-server__ 옵션
