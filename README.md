@@ -185,8 +185,8 @@ __p350. 2번 항목 2째 줄__<br>
 images, ports, volume 항목 -> __image__, ports, __volumes__ 항목<br>
 
 __p353. 본문 8째줄, 밑에서 4째줄__<br>
-$docker-compose up d -> $docker-compose up -d 
-docker-compose up d 명령어를 실행하면 -> docker-compose up -d 명령어를 실행하면 
+$docker-compose up d -> $docker-compose up __-d__ <br>
+docker-compose up d 명령어를 실행하면 -> docker-compose up __-d__ 명령어를 실행하면 
 
 __p355. 4째 줄__<br>
 --bootstrap 옵션 -> --bootstrap __-server__ 옵션
