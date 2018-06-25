@@ -137,6 +137,16 @@ __p295. 3째 줄__ 영문 o 빠짐 <br>
 __p295. 4째 줄__<br>
 내장 함수'화' 논리 표현식을 -> 내장 함수"와" 논리 표현식을 <br>
 
+__p318. 예제 8-3 7째줄 System.out.println("topology started"); 코드행 -> 아래쪽으로 이동__<br>
+(https://github.com/onlybooks/kafka/blob/master/chapter8/Pipe-complete.java 전체 파일 참조)
+```
+ try {
+    streams.start();
+    System.out.println("topology started");
+    latch.await();
+ } catch (Throwable e) {
+ ```
+        
 __p318. 예제 8-3 마지막줄 코드부 전체 삭제__<br> 
 ~~final CountDownLatch latch = new CountDownLatch(1);     1~~ <br>
 
