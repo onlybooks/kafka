@@ -33,7 +33,6 @@ public class Pipe {
       @Override
       public void run() {
         streams.close();
-        System.out.println("topology started");
         latch.countDown();
         System.out.println("topology terminated");
       }
@@ -41,6 +40,7 @@ public class Pipe {
 
     try {
       streams.start();
+      System.out.println("topology started");
       latch.await();
     } catch (Throwable e) {
       System.exit(1);
