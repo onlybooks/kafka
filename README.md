@@ -207,10 +207,18 @@ Page_view 토픽 -> __Pageviews__ 토픽 <br>
 
 __p356. 5~6째 줄__<br>
 pages_region 스트림 -> __pageviews_regions__ 스트림<br>
-pages_enriched_r8_r9, pageview_region -> __pageviews_enriched_r8_r9__, __pageviews_regions
+pages_enriched_r8_r9, pageview_region -> __pageviews_enriched_r8_r9__, __pageviews_regions__
 
 __p359. 6번 항목__<br>
 quickstart=user 옵션 -> quickstart=__users__ 옵션
+
+__<2018년 7월 22일 등록 (1쇄, 2쇄 확인 필요)>__
+
+__p153. 첫 코드부 3째 줄 마지막 명령__<br>
+create -> __--create__
+
+__p157. bootstrap.servers 항목 설명 2째 줄__<br>
+클라이언의 요청을 -> 클라이언__트__의 요청을
 
 <hr>
 
